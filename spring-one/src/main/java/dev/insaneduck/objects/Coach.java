@@ -1,5 +1,8 @@
-package dev.insaneduck;
+package dev.insaneduck.objects;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public interface Coach
 {
 

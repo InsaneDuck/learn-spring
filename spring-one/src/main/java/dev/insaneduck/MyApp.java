@@ -1,5 +1,8 @@
 package dev.insaneduck;
 
+import dev.insaneduck.objects.Coach;
+import dev.insaneduck.objects.TrackCoach;
+
 public class MyApp
 {
 

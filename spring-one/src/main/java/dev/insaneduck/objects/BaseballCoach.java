@@ -1,5 +1,9 @@
-package dev.insaneduck;
+package dev.insaneduck.objects;
 
+import dev.insaneduck.FortuneService;
+import org.springframework.stereotype.Component;
+
+@Component
 public class BaseballCoach implements Coach
 {
 

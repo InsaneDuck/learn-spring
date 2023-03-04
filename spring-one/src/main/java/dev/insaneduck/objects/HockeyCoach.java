@@ -1,4 +1,4 @@
-package dev.insaneduck;
+package dev.insaneduck.objects;
 
 public class HockeyCoach implements Coach
 {

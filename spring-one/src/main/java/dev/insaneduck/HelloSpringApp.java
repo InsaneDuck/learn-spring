@@ -1,6 +1,7 @@
 package dev.insaneduck;
 
 
+import dev.insaneduck.objects.Coach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class HelloSpringApp

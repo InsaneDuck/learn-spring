@@ -1,34 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="spring-mvc:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae26bb78-b697-4f74-80b7-2593e1ebb759" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-one/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/BaseballCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/Coach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/CricketCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/FortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/HappyFortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/HelloSpringApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/HockeyCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/MyApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/MyLoggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/SetterDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/TrackCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-one/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-one/src/main/resources/sport.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution-code-spring-java-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution-code-spring-java-config/src/main/java/dev/insaneduck/AnnotationBeanScopeDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution-code-spring-java-config/src/main/java/dev/insaneduck/AnnotationDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution-code-spring-java-config/src/main/java/dev/insaneduck/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution-code-spring-java-config/src/main/java/dev/insaneduck/DatabaseFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution-code-spring-java-config/src/main/java/dev/insaneduck/FortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution-code-spring-java-config/src/main/java/dev/insaneduck/HappyFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution-code-spring-java-config/src/main/java/dev/insaneduck/JavaConfigDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution-code-spring-java-config/src/main/java/dev/insaneduck/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution-code-spring-java-config/src/main/java/dev/insaneduck/MyLoggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution-code-spring-java-config/src/main/java/dev/insaneduck/RESTFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution-code-spring-java-config/src/main/java/dev/insaneduck/RandomFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution-code-spring-java-config/src/main/java/dev/insaneduck/SadFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution-code-spring-java-config/src/main/java/dev/insaneduck/SportConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution-code-spring-java-config/src/main/java/dev/insaneduck/TennisCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution-code-spring-java-config/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution-code-spring-java-config/src/main/resources/mylogger.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/dev/insaneduck/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/dev/insaneduck/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/dev/insaneduck/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/countries.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/spring-mvc-demo-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/view/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/SportConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-spring.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-one/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-one/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/BaseballCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/objects/BaseballCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/objects/Coach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/CricketCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/objects/CricketCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/FortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/FortuneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/HappyFortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/HappyFortuneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/HelloSpringApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/HelloSpringApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/HockeyCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/objects/HockeyCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/MyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/MyApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/MyLoggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/MyLoggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/SetterDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/SetterDemoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/TrackCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-one/src/main/java/dev/insaneduck/objects/TrackCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-one/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-one/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-one/src/main/resources/sport.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-one/src/main/resources/sport.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +72,26 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,6 +102,9 @@
         <option name="workspaceImportEnabled" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -71,128 +126,117 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Satya/IdeaProjects/spring/spring-one/src/main/resources&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/satya/IdeaProjects/learn-spring/spring-mvc/src/main/java/dev/insaneduck&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/satya/IdeaProjects/learn-spring/spring-mvc/src/main/webapp/WEB-INF&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;8445d032e6113320b4682c2d7628f905&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/spring-mvc/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/solution-code-spring-java-config/src/main/resources" />
+      <recent name="$PROJECT_DIR$/solution-code-spring-java-config/src/main/java/dev/insaneduck" />
       <recent name="C:\Users\Satya\IdeaProjects\spring\spring-one\src\main\resources" />
-      <recent name="C:\Users\Satya\IdeaProjects\spring\spring-one\src\main\java\dev\insaneduck" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/view" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="HelloSpringApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.insaneduck.HelloSpringApp" />
-      <module name="spring-one" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.insaneduck.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Tomcat 10.1.6" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.6" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="spring-mvc:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/spring_mvc" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="f7786cdf-b329-4b0f-9bbd-5704690643fe" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="44757" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="spring-mvc:war exploded" />
+        </option>
       </method>
     </configuration>
-    <configuration default="true" type="DjangoTestsConfigurationType">
-      <module name="learn-spring" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="learn-spring" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="learn-spring" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <module name="learn-spring" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="learn-spring" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Python.FlaskServer">
-      <module name="learn-spring" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="learn-spring" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.HelloSpringApp" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -203,6 +247,14 @@
       <option name="presentableId" value="Default" />
       <updated>1675879571577</updated>
       <workItem from="1675879572761" duration="233000" />
+      <workItem from="1677649724332" duration="3896000" />
+      <workItem from="1677655411500" duration="651000" />
+      <workItem from="1677656081223" duration="2976000" />
+      <workItem from="1677704701401" duration="773000" />
+      <workItem from="1677707507167" duration="682000" />
+      <workItem from="1677708383188" duration="9076000" />
+      <workItem from="1677865286630" duration="565000" />
+      <workItem from="1677878219704" duration="9827000" />
     </task>
     <servers />
   </component>
@@ -211,5 +263,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

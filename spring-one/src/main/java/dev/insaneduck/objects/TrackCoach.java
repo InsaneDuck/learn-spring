@@ -1,4 +1,6 @@
-package dev.insaneduck;
+package dev.insaneduck.objects;
+
+import dev.insaneduck.FortuneService;
 
 public class TrackCoach implements Coach
 {

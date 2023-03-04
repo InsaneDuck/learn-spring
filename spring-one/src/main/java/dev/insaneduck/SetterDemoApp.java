@@ -1,5 +1,6 @@
 package dev.insaneduck;
 
+import dev.insaneduck.objects.CricketCoach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class SetterDemoApp
