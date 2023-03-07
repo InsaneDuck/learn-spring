@@ -1,0 +1,22 @@
+version: '3.3'
+services:
+  db:
+    image: mariadb:10.11.2
+    environment:
+      MARIADB_ROOT_PASSWORD: password
+    ports:
+      - '33060:3306'
+    volumes:
+      - mariadb-data:/var/lib/mysql
+
+  web:
+    depends_on:
+      - db
+    image: tomcat:10.1.0-jdk17-openjdk
+    ports:
+      - '8082:8080'
+    volumes:
+      - ./target/spring-mvc.war:/usr/local/tomcat/webapps/spring-mvc.war
+
+volumes:
+  mariadb-data:

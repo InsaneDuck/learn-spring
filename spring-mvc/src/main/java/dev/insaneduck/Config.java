@@ -1,6 +1,5 @@
-package dev.insaneduck.config;
+package dev.insaneduck;
 
-import dev.insaneduck.Student;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

@@ -1,23 +1,24 @@
 package dev.insaneduck;
 
 
-import jakarta.validation.constraints.Max;
-import jakarta.validation.constraints.Min;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Size;
+import jakarta.validation.constraints.*;
 import org.springframework.stereotype.Component;
 
 import java.util.LinkedHashMap;
 
 @Component
 public class Student {
-    @NotNull(message = "is required not null")
-    @Size(min = 1, message = "is required")
+    @NotNull(message = "is required (not null)")
+    @Size(min = 1, message = "not sufficient length")
     String firstName;
     String lastName;
+    @NotNull(message = "required")
     @Min(value = 1, message = "enter value in between 1 to 10")
-    @Max(value = 1, message = "enter value in between 1 to 10")
-    int gpa;
+    @Max(value = 10, message = "enter value in between 1 to 10")
+    Integer gpa;
+
+    @CourseCode(value = "COMP", message = "not valid")
+    String courseCode;
 
     String country;
 
@@ -31,6 +32,9 @@ public class Student {
     String[] operatingSystems;
 
     LinkedHashMap<String, String> operatingSystemOptions;
+
+    @Pattern(regexp = "^[a-zA-Z0-9]{5}", message = "not a valid pin code")
+    String pinCode;
 
     public Student() {
         countryOptions = new LinkedHashMap<>();
@@ -115,11 +119,27 @@ public class Student {
         this.operatingSystemOptions = operatingSystemOptions;
     }
 
-    public int getGpa() {
+    public Integer getGpa() {
         return gpa;
     }
 
-    public void setGpa(int gpa) {
+    public void setGpa(Integer gpa) {
         this.gpa = gpa;
+    }
+
+    public String getPinCode() {
+        return pinCode;
+    }
+
+    public void setPinCode(String pinCode) {
+        this.pinCode = pinCode;
+    }
+
+    public String getCourseCode() {
+        return courseCode;
+    }
+
+    public void setCourseCode(String courseCode) {
+        this.courseCode = courseCode;
     }
 }

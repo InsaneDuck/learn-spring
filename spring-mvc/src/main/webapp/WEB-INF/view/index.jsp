@@ -34,8 +34,16 @@
     <form:input path="gpa"/>
     <form:errors path="gpa" cssClass="error"/>
     <br><br>
+    CourseCode :
+    <form:input path="courseCode"/>
+    <form:errors path="courseCode" cssClass="error"/>
+    <br><br>
     Country :
     <form:select path="country" items="${student.countryOptions}"/>
+    <br><br>
+    Pin Code :
+    <form:input path="pinCode"/>
+    <form:errors path="pinCode" cssClass="error"/>
     <br><br>
     Favorite Language :
     <form:radiobuttons path="favoriteLanguage" items="${student.favoriteLanguageOptions}"/>
@@ -48,6 +56,7 @@
 <h2>Name : ${student.firstName} ${student.lastName}</h2>
 <h2>GPA : ${student.gpa}</h2>
 <h2>Country : ${student.country}</h2>
+<h2>Pin Code : ${student.pinCode}</h2>
 <h2>Favorite Language : ${student.favoriteLanguage}</h2>
 <h2>Operating Systems : ${student.operatingSystems}</h2>
 </body>

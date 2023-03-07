@@ -20,19 +20,20 @@ public class MainController {
 
     @RequestMapping("/")
     public String showHome(Model model) {
-        model.addAttribute("student", new Student());
+        model.addAttribute("student", new dev.insaneduck.Student());
         return "index";
     }
 
     @RequestMapping("/show")
     public String form(@RequestParam("string") String message, Model model) {
-        model.addAttribute("student", new Student());
+        model.addAttribute("student", new dev.insaneduck.Student());
         model.addAttribute("message", message.toUpperCase());
         return "index";
     }
 
     @RequestMapping("/setStudent")
     public String setStudent(@Valid @ModelAttribute("student") Student student, BindingResult bindingResult) {
+        System.out.println(bindingResult + "\n\n\n");
         return "index";
     }
 }
