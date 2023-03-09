@@ -7,10 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-mvc" />
-        <module name="hibernate-tutorial" />
+        <module name="hibernate-web-app" />
         <module name="spring-one" />
         <module name="solution-code-spring-java-config" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hibernate-tutorial" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

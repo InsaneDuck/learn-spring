@@ -1,0 +1,20 @@
+version: '3.3'
+services:
+  db:
+    image: mariadb:10.11.2
+    environment:
+      MARIADB_ROOT_PASSWORD: password
+    network_mode: host
+    volumes:
+      - mariadb-data:/var/lib/mysql
+
+  web:
+    depends_on:
+      - db
+    image: tomcat:10.1.0-jdk17-openjdk
+    network_mode: host
+    volumes:
+      - ./target/hibernate-web-app.war:/usr/local/tomcat/webapps/hibernate-web-app.war
+
+volumes:
+  mariadb-data:

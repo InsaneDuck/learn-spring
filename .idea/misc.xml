@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/hibernate-web-app" />
     <file type="web" url="file://$PROJECT_DIR$/spring-mvc" />
   </component>
   <component name="MavenProjectsManager">
@@ -9,8 +10,8 @@
       <list>
         <option value="$PROJECT_DIR$/spring-one/pom.xml" />
         <option value="$PROJECT_DIR$/solution-code-spring-java-config/pom.xml" />
+        <option value="$PROJECT_DIR$/hibernate-web-app/pom.xml" />
         <option value="$PROJECT_DIR$/spring-mvc/pom.xml" />
-        <option value="$PROJECT_DIR$/hibernate-tutorial/pom.xml" />
       </list>
     </option>
   </component>
