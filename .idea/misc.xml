@@ -3,7 +3,9 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/hibernate-web-app" />
+    <file type="web" url="file://$PROJECT_DIR$/solution-code-spring-security-demo-03-custom-login-form" />
     <file type="web" url="file://$PROJECT_DIR$/spring-mvc" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-security" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -12,6 +14,8 @@
         <option value="$PROJECT_DIR$/solution-code-spring-java-config/pom.xml" />
         <option value="$PROJECT_DIR$/hibernate-web-app/pom.xml" />
         <option value="$PROJECT_DIR$/spring-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security/pom.xml" />
+        <option value="$PROJECT_DIR$/solution-code-spring-security-demo-03-custom-login-form/pom.xml" />
       </list>
     </option>
   </component>

@@ -40,8 +40,10 @@ public class StudentDAOImpl implements StudentDAO {
     }
 
     @Override
+    @Transactional
     public Student getStudent(int id) {
-        return null;
+        Session session = sessionFactory.getCurrentSession();
+        return session.get(Student.class, id);
     }
 
     @Override

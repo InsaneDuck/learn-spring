@@ -2,18 +2,28 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-mvc" />
-        <module name="hibernate-web-app" />
-        <module name="spring-one" />
-        <module name="solution-code-spring-java-config" />
+        <module name="spring-boot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hibernate-tutorial" target="17" />
+      <module name="hibernate-web-app" target="17" />
+      <module name="solution-code-spring-java-config" target="17" />
+      <module name="spring-boot" target="17" />
+      <module name="spring-mvc" target="17" />
+      <module name="spring-one" target="17" />
+      <module name="spring-security" target="17" />
+      <module name="spring-security-demo" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot" options="-parameters" />
+    </option>
   </component>
 </project>

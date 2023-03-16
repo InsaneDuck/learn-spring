@@ -1,5 +1,6 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="c" uri="jakarta.tags.core" %>
+
 <html>
 <head>
     <title>Hibernate App</title>
@@ -93,17 +94,22 @@
         <th>id</th>
         <th>Name</th>
         <th>Email</th>
+        <th>Update</th>
     </tr>
 
     <c:forEach var="student" items="${students}">
+        <c:url var="updateLink" value="/updateStudent">
+            <c:param name="studentId" value="${student.id}"/>
+        </c:url>
         <tr>
             <td>${student.id}</td>
             <td>${student.name}</td>
             <td>${student.name}</td>
+            <td>
+                <a href="${updateLink}">Update</a>
+            </td>
         </tr>
     </c:forEach>
-
-
 </table>
 </body>
 </html>

@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/hibernate-web-app/hibernate-web-app.iml" filepath="$PROJECT_DIR$/hibernate-web-app/hibernate-web-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn-spring.iml" filepath="$PROJECT_DIR$/learn-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solution-code-spring-java-config/solution-code-spring-java-config.iml" filepath="$PROJECT_DIR$/solution-code-spring-java-config/solution-code-spring-java-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc/spring-mvc.iml" filepath="$PROJECT_DIR$/spring-mvc/spring-mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-one/spring-one.iml" filepath="$PROJECT_DIR$/spring-one/spring-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security/spring-security.iml" filepath="$PROJECT_DIR$/spring-security/spring-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solution-code-spring-security-demo-03-custom-login-form/spring-security-demo.iml" filepath="$PROJECT_DIR$/solution-code-spring-security-demo-03-custom-login-form/spring-security-demo.iml" />
     </modules>
   </component>
 </project>

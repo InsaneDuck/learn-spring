@@ -1,0 +1,47 @@
+version: "3.3"
+services:
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: portainer
+    ports:
+      - '9000:9000'
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /home/satya/applications/portainer-config:/data
+    restart: always
+
+  mariadb:
+    image: mariadb:10.11.2
+    environment:
+      MARIADB_ROOT_PASSWORD: password
+    ports:
+      - '33060:3306'
+    volumes:
+      - /home/satya/applications/mariadb-data:/var/lib/mysql
+
+  pihole:
+    image: pihole/pihole:latest
+    container_name: pihole
+    environment:
+      TZ: 'United Kingdom/London'
+      WEBPASSWORD: 4CaNgAYhsTU!*hbL
+    ports:
+      - "5300:53/tcp"
+      - "5300:53/udp"
+      - "6700:67/udp"
+      - "8000:80/tcp"
+    volumes:
+      - '/home/satya/applications/pihole-data/etc-pihole:/etc/pihole'
+      - '/home/satya/applications/pihole-data/etc-dnsmasq.d:/etc/dnsmasq.d'
+    restart: always
+
+  jellyfin:
+    image: jellyfin/jellyfin:latest
+    container_name: jellyfin
+    user: 1000:1000
+    ports:
+      - '8097:8096'
+      - '8921:8920'
+    volumes:
+      - /home/satya/applications/jellyfin-data:/config
+    restart: always

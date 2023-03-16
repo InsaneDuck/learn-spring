@@ -4,7 +4,8 @@ services:
     image: mariadb:10.11.2
     environment:
       MARIADB_ROOT_PASSWORD: password
-    network_mode: host
+    ports:
+      - '33060:3306'
     volumes:
       - mariadb-data:/var/lib/mysql
 
